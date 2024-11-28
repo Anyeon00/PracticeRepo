@@ -1,4 +1,4 @@
-## 헥사고날 아키텍처에 기반한 각종 기술 테스트 공간
+## 헥사고날 아키텍처 기반 각종 기술 테스트 공간
 
 ### Feign Client 연결
 - BoardService에 InternalApi 작성, CommentService에 Feign Client 구현
