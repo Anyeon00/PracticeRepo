@@ -14,7 +14,7 @@ public class MessageController {
     @MessageMapping("/chat")    // /chat 채널 명   _/pub/chat 으로 발행된 메시지 처리
     @SendTo("/sub/chat")    // /chat 을 구독한 사용자에게 전달
     public ChatMessageResponse sendMessage(ChatMessageRequest request) {
-        //DTO : ChatMessageRequest _JSON 타입 메시지 요청, DTO 로 자동 직렬화
+        //DTO : ChatMessageRequest _JSON 타입 메시지 요청, DTO 로 자동 역직렬화
 
         return new ChatMessageResponse(request.sender(), request.content());
     }
