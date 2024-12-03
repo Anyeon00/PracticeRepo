@@ -1,6 +1,6 @@
 package com.example.msa_commentservice.infra.repository.jpa.entity;
 
-import com.example.msa_commentservice.domain.domain.Comment;
+import com.example.msa_commentservice.application.domain.Comment;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;

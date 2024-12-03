@@ -1,6 +1,6 @@
 package com.example.msa_commentservice.infra.service;
 
-import com.example.msa_commentservice.domain.port.out.BoardApiService;
+import com.example.msa_commentservice.application.port.out.BoardApiService;
 import com.example.msa_commentservice.infra.external.feign.BoardApiServiceClient;
 import com.example.msa_commentservice.infra.external.feign.dto.BoardCountResponse;
 import lombok.RequiredArgsConstructor;

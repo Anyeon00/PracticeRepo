@@ -1,7 +1,7 @@
 package com.example.msa_commentservice.infra.repository;
 
-import com.example.msa_commentservice.domain.port.out.CommentRepository;
-import com.example.msa_commentservice.domain.domain.Comment;
+import com.example.msa_commentservice.application.port.out.CommentRepository;
+import com.example.msa_commentservice.application.domain.Comment;
 import com.example.msa_commentservice.infra.repository.jpa.CommentJpaRepository;
 import com.example.msa_commentservice.infra.repository.jpa.entity.CommentEntity;
 import lombok.RequiredArgsConstructor;
